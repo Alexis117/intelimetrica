@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1j8*9099!+8!yk!p!+^trs$rgjsc^okqa3*%xva@_7pn4c$v6q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['intelimetrica-test.herokuapp.com']
 
