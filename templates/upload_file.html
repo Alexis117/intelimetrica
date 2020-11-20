@@ -1,0 +1,5 @@
+<form action="{% url 'restaurants:upload' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="csv_file"></input>
+    <input type="submit" value="Upload" />
+</form>
