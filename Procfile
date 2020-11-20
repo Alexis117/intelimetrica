@@ -1,0 +1,1 @@
+web: gunicorn intelimetrica.wsgi --log-file -
